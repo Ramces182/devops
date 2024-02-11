@@ -5,7 +5,7 @@ name: Check Visa Bulletin
 
 on:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '*/1 * * * *'
 
 jobs:
   check-visa-bulletin:
